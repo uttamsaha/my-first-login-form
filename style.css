@@ -107,7 +107,7 @@ input:focus {
   font-size: 29px;
 }
 
-@media (max-width: 688px){
+@media (max-width:688px){
 .login-area{
     width: 100%;
 }
