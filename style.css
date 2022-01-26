@@ -95,23 +95,44 @@ input:focus {
 .fa-user-circle {
   color: #f15e04;
   position: absolute;
-  bottom: 370px;
+  bottom: 382px;
   padding-left: 5px;
   font-size: 29px;
 }
 .fa-key {
   color: #f15e04;
   position: absolute;
-  bottom: 287px;
+  bottom: 298px;
   padding-left: 5px;
   font-size: 29px;
 }
 
 @media (max-width: 688px){
 .login-area{
-    width: 95%;
+    width: 100%;
 }
 .login-item{
     padding: 20px 30px;;
+}
+.login-item img{
+  display: none;
+}
+.login-area{
+  height: 100%;
+  width: 100%;
+}
+.fa-user-circle {
+  color: #f15e04;
+  position: absolute;
+  top: 188px;
+  padding-left: 5px;
+  font-size: 27px;
+}
+.fa-key {
+  color: #f15e04;
+  position: absolute;
+  top: 275px;
+  padding-left: 5px;
+  font-size: 27px;
 }
 }
