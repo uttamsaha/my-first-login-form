@@ -59,7 +59,7 @@ input {
 label {
   color: white;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
 }
 button {
   margin-top: 5px;
@@ -95,14 +95,14 @@ input:focus {
 .fa-user-circle {
   color: #f15e04;
   position: absolute;
-  bottom: 368px;
+  bottom: 370px;
   padding-left: 5px;
   font-size: 29px;
 }
 .fa-key {
   color: #f15e04;
   position: absolute;
-  bottom: 279px;
+  bottom: 287px;
   padding-left: 5px;
   font-size: 29px;
 }
@@ -110,5 +110,8 @@ input:focus {
 @media (max-width: 688px){
 .login-area{
     width: 95%;
+}
+.login-item{
+    padding: 20px 30px;;
 }
 }
