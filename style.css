@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.background {
+  height: 100vh;
+  background-image: url(images/bgxx.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-area {
+  width: 700px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.637);
+  border-radius: 20px;
+
+  /* margin-top: 200px; */
+  position: relative;
+  margin: auto;
+}
+.login-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 80px;
+}
+h2 {
+  text-align: center;
+  margin-top: 80px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+.login-item img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  right: 45%;
+  transform: translateY(-180deg);
+  transition: 0.5s;
+}
+input {
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  margin-bottom: 15px;
+  font-size: 20px;
+  padding-left: 40px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  border-radius: 25px;
+}
+label {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+button {
+  margin-top: 5px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #f15e04;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  transition: 0.5s;
+  color: white;
+  font-weight: 500;
+}
+button:hover {
+  background-color: rgba(96, 192, 230, 0.87);
+}
+p {
+  color: white;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: rgb(97, 223, 255);
+}
+input:focus {
+  background-color: rgba(255, 255, 255, 0.877);
+  outline: none;
+  border: 1px solid white;
+}
+.icon {
+  position: relative;
+}
+.fa-user-circle {
+  color: #f15e04;
+  position: absolute;
+  bottom: 368px;
+  padding-left: 5px;
+  font-size: 29px;
+}
+.fa-key {
+  color: #f15e04;
+  position: absolute;
+  bottom: 279px;
+  padding-left: 5px;
+  font-size: 29px;
+}
+
+@media (max-width: 688px){
+.login-area{
+    width: 95%;
+}
+}
